@@ -5,7 +5,7 @@
 /* HELPER / GLOBAL COMPONENTS */
 /* MEDIA QUERIES */
 
-/* ROOT */
+/* ROOT */Hozir fontslarni git ga yuklayman. ok -> 
 :root{
   --color-dark:#000;
   --color-white:#fff;
@@ -55,10 +55,8 @@ body {
 
 img {
   max-width: 100%;
-  height: auto;
+  height: 100%;
 }
-
-
 
 /*------------------------------------*\
   #HELPER / GLOBAL COMPONENTS
@@ -66,21 +64,11 @@ img {
 
 /* VISUALLY HIDING CODE */
 
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-  clip: rect(0 0 0 0);
-  overflow: hidden;
-}
 
 /* CONTAINER */
 
 .container {
-  max-width: 1160;
+  max-width: 1160px;
   padding-left: 30px;
   padding-right: 30px;
   margin-left: auto;
