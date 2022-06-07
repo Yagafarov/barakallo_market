@@ -5,8 +5,14 @@
 /* HELPER / GLOBAL COMPONENTS */
 /* MEDIA QUERIES */
 
-
-
+/* ROOT */
+:root{
+  --color-dark:#000;
+  --color-white:#fff;
+  --color-cromson:#dc143c;
+  --color-green: #008000;
+  
+}
 /*------------------------------------*\
   #FONT-FACE
 \*------------------------------------*/
