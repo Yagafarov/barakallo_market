@@ -62,27 +62,16 @@
   --color-dark:#000;
   --color-white:#fff;
   --color-cromson:#dc143c;
-  --color-green: #008000;
-  
+  --color-green: #008000; 
 }
-
 
 
 /*------------------------------------*\
   #GLOBAL-STYLES
 \*------------------------------------*/
 
-html {
-  height: 100%;
-}
-
 body {
-  height: 100%;
-  padding: 0;
-  margin: 0;
   font-family: "Arial", sans-serif;
-  font-size: 16px;
-  line-height: 1.5;
   color: #222;
 }
 
@@ -91,6 +80,12 @@ img {
   height: 100%;
 }
 
+li{
+  list-style-type: none;
+}
+a{
+  text-decoration: none;
+}
 /*------------------------------------*\
   #HELPER / GLOBAL COMPONENTS
 \*------------------------------------*/
